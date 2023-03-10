@@ -9,6 +9,18 @@ public class Main {
         double meinNum1 = 15.99d;
         System.out.print(meinNum);
 
+        boolean isJavaFun = true;
+        boolean isFishTasty = false;
+        System.out.println(isJavaFun);     // Outputs true
+        System.out.println(isFishTasty);   // Outputs false
+
+
+        double myDouble = 9.78d;
+        int myInt = (int) myDouble; // Manual casting: double to int
+        float myByte = (byte) myDouble;
+        System.out.println(myDouble);   // Outputs 9.78
+        System.out.println(myInt);      // Outputs 9
+        System.out.println(myByte);
         int myNum = 5;
         float myFloatNum = 5.99f;
         char myLetter = 'D';
